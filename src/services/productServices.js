@@ -4,6 +4,7 @@ import { baseUrl } from "../config/constant"
 export const productApi = createApi({
     //reducerPath must be unique
     reducerPath: "productApi",
+    //fetchBaseQuery is a boilerplate function to call the baseUrl
     baseQuery: fetchBaseQuery({
         baseUrl: baseUrl,
     }),
